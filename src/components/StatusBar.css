@@ -1,0 +1,17 @@
+.status-bar {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #111;
+    height: 300px;
+    font-family: monospace;
+}
+
+.bar {
+    color: #fff;
+    height: 7%;
+    background-color: #000;
+}
+
+.bar span {
+    line-height: 100%;
+}

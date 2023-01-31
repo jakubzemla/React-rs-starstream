@@ -1,0 +1,5 @@
+section.studio-grid {
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+}

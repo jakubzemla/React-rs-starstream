@@ -1,0 +1,144 @@
+.middle-item {
+    width: 61%;
+    display: flex;
+}
+
+.preview, .pgm {
+    width: 40%;
+}
+
+.mixer-modes {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.modes-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5%;
+    margin: 0;
+    padding: 0;
+    height: 90%
+}
+
+.modes-item {
+    padding: 0;
+    width: 49%;
+    height: 19%;
+}
+
+.modes-item.full-line {
+    width: 100%;
+}
+
+.modes-item button {
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #666666;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modes-item button:hover {
+    background-color: #666666;
+    color: #000;
+    border: none;
+}
+
+.modes-item button:hover span.icon {
+    border-color: #000;
+}
+
+button i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+i.small {
+    font-size: 25px;
+}
+
+i.green {
+    color: green;
+}
+
+i.red {
+    color: red;
+}
+
+i.rotate {
+    transform: rotate(180deg)
+}
+
+button span {
+    width: 100%;
+}
+
+span.icon {
+    display: block;
+    border: 1px solid #666666;
+    width: 60%;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all .3s;
+}
+
+.video-wrapper {
+    width: 100%;
+    height: 90%;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.video-wrapper img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.pgm-navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
+
+.pgm-navbar li {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pgm-navbar li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #999999;
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+
+.pgm-navbar li a:hover, .pgm-navbar li a.active {
+    color: #000;
+    background-color: #999999;
+    font-weight: bold;
+}

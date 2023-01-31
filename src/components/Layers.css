@@ -1,0 +1,31 @@
+.layers-item {
+    width: 6%;
+}
+
+.sidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5%;
+    height: 90%;
+    flex-direction: column;
+}
+
+.sidebar li {
+    width: 100%;
+    height: 20%;
+}
+
+.sidebar li button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #666666;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
